@@ -26,11 +26,28 @@ class Swift4UtilTests: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
     
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    func testDateExtensions() {
+
+        let date = Date()
+        print("--- date=", date, "ddMMyyy=", date.ddMMyyyy)
+        print("--- time=", date, "HHmmss=", date.HHmmss)
+
     }
     
 }
+
+
+/*
+func testDateExt() {
+    let date = Date()
+    print("--- date=", date, "property ddMMyyy", date.ddMMyyyy)
+}
+
+func testDateExt2() {
+    let date = Date()
+    print("--- date=", date, "property ddmmyyy", date.ddmmyyyy)
+    print("--- date=", date, "property hhmmss", date.hhmmss)
+
+    print("--- timezone=", TimeZone.current)
+}
+*/
