@@ -39,6 +39,7 @@
 		9D096ED820D7DEB100D40F66 /* Swift4UtilTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift4UtilTests.swift; sourceTree = "<group>"; };
 		9D096EDA20D7DEB100D40F66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D096EE420D7DF1A00D40F66 /* DateUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateUtil.swift; sourceTree = "<group>"; };
+		9D096EE720D7E38600D40F66 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +88,7 @@
 				9D096ECA20D7DEB100D40F66 /* Assets.xcassets */,
 				9D096ECC20D7DEB100D40F66 /* LaunchScreen.storyboard */,
 				9D096ECF20D7DEB100D40F66 /* Info.plist */,
+				9D096EE720D7E38600D40F66 /* README.md */,
 			);
 			path = Swift4Util;
 			sourceTree = "<group>";

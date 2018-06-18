@@ -31,6 +31,7 @@ class Swift4UtilTests: XCTestCase {
         let date = Date()
         print("--- date=", date, "ddMMyyy=", date.ddMMyyyy)
         print("--- time=", date, "HHmmss=", date.HHmmss)
+        print("Today", date.ddMMyyyy, "at", date.HHmmss, "...")
 
     }
     
