@@ -15,6 +15,9 @@
 		9D096ED920D7DEB100D40F66 /* Swift4UtilTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D096ED820D7DEB100D40F66 /* Swift4UtilTests.swift */; };
 		9D096EE520D7DF1A00D40F66 /* DateUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D096EE420D7DF1A00D40F66 /* DateUtil.swift */; };
 		9D096EE620D7E08900D40F66 /* DateUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D096EE420D7DF1A00D40F66 /* DateUtil.swift */; };
+		9D096EE920D7EEAC00D40F66 /* RegexUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D096EE820D7EEAC00D40F66 /* RegexUtil.swift */; };
+		9D096EEA20D7EEAC00D40F66 /* RegexUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D096EE820D7EEAC00D40F66 /* RegexUtil.swift */; };
+		9D096EED20D7EEFF00D40F66 /* RegexUtilTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D096EEB20D7EEFF00D40F66 /* RegexUtilTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,8 @@
 		9D096EDA20D7DEB100D40F66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D096EE420D7DF1A00D40F66 /* DateUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateUtil.swift; sourceTree = "<group>"; };
 		9D096EE720D7E38600D40F66 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9D096EE820D7EEAC00D40F66 /* RegexUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegexUtil.swift; sourceTree = "<group>"; };
+		9D096EEB20D7EEFF00D40F66 /* RegexUtilTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegexUtilTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +101,7 @@
 		9D096ED720D7DEB100D40F66 /* Swift4UtilTests */ = {
 			isa = PBXGroup;
 			children = (
+				9D096EEB20D7EEFF00D40F66 /* RegexUtilTests.swift */,
 				9D096ED820D7DEB100D40F66 /* Swift4UtilTests.swift */,
 				9D096EDA20D7DEB100D40F66 /* Info.plist */,
 			);
@@ -105,6 +111,7 @@
 		9D096EE320D7DEEF00D40F66 /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				9D096EE820D7EEAC00D40F66 /* RegexUtil.swift */,
 				9D096EE420D7DF1A00D40F66 /* DateUtil.swift */,
 			);
 			path = Util;
@@ -214,6 +221,7 @@
 				9D096EE520D7DF1A00D40F66 /* DateUtil.swift in Sources */,
 				9D096EC620D7DEAF00D40F66 /* ViewController.swift in Sources */,
 				9D096EC420D7DEAF00D40F66 /* AppDelegate.swift in Sources */,
+				9D096EE920D7EEAC00D40F66 /* RegexUtil.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,6 +231,8 @@
 			files = (
 				9D096ED920D7DEB100D40F66 /* Swift4UtilTests.swift in Sources */,
 				9D096EE620D7E08900D40F66 /* DateUtil.swift in Sources */,
+				9D096EEA20D7EEAC00D40F66 /* RegexUtil.swift in Sources */,
+				9D096EED20D7EEFF00D40F66 /* RegexUtilTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
