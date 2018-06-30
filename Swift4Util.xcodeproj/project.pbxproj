@@ -18,6 +18,8 @@
 		9D096EE920D7EEAC00D40F66 /* RegexUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D096EE820D7EEAC00D40F66 /* RegexUtil.swift */; };
 		9D096EEA20D7EEAC00D40F66 /* RegexUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D096EE820D7EEAC00D40F66 /* RegexUtil.swift */; };
 		9D096EED20D7EEFF00D40F66 /* RegexUtilTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D096EEB20D7EEFF00D40F66 /* RegexUtilTests.swift */; };
+		9D2481D920E79BA6008D2388 /* DictUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2481D820E79BA6008D2388 /* DictUtil.swift */; };
+		9D2481DB20E79BD6008D2388 /* DictUtilTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2481DA20E79BD6008D2388 /* DictUtilTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		9D096EE720D7E38600D40F66 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9D096EE820D7EEAC00D40F66 /* RegexUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegexUtil.swift; sourceTree = "<group>"; };
 		9D096EEB20D7EEFF00D40F66 /* RegexUtilTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegexUtilTests.swift; sourceTree = "<group>"; };
+		9D2481D820E79BA6008D2388 /* DictUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictUtil.swift; sourceTree = "<group>"; };
+		9D2481DA20E79BD6008D2388 /* DictUtilTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictUtilTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,7 @@
 			children = (
 				9D096EEB20D7EEFF00D40F66 /* RegexUtilTests.swift */,
 				9D096ED820D7DEB100D40F66 /* Swift4UtilTests.swift */,
+				9D2481DA20E79BD6008D2388 /* DictUtilTests.swift */,
 				9D096EDA20D7DEB100D40F66 /* Info.plist */,
 			);
 			path = Swift4UtilTests;
@@ -113,6 +118,7 @@
 			children = (
 				9D096EE820D7EEAC00D40F66 /* RegexUtil.swift */,
 				9D096EE420D7DF1A00D40F66 /* DateUtil.swift */,
+				9D2481D820E79BA6008D2388 /* DictUtil.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -218,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D2481D920E79BA6008D2388 /* DictUtil.swift in Sources */,
 				9D096EE520D7DF1A00D40F66 /* DateUtil.swift in Sources */,
 				9D096EC620D7DEAF00D40F66 /* ViewController.swift in Sources */,
 				9D096EC420D7DEAF00D40F66 /* AppDelegate.swift in Sources */,
@@ -232,6 +239,7 @@
 				9D096ED920D7DEB100D40F66 /* Swift4UtilTests.swift in Sources */,
 				9D096EE620D7E08900D40F66 /* DateUtil.swift in Sources */,
 				9D096EEA20D7EEAC00D40F66 /* RegexUtil.swift in Sources */,
+				9D2481DB20E79BD6008D2388 /* DictUtilTests.swift in Sources */,
 				9D096EED20D7EEFF00D40F66 /* RegexUtilTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
