@@ -1,5 +1,5 @@
 //
-//  Swift4UtilTests.swift
+//  DateUtilTests.swift
 //  Swift4UtilTests
 //
 //  Created by Rudolf Farkas on 18.06.18.
@@ -9,7 +9,7 @@
 import XCTest
 @testable import Swift4Util
 
-class Swift4UtilTests: XCTestCase {
+class DateUtilTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
@@ -21,34 +21,20 @@ class Swift4UtilTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-    
     func testDateExtensions() {
 
         let date = Date()
         print("--- date=", date, "ddMMyyy=", date.ddMMyyyy)
         print("--- time=", date, "HHmmss=", date.HHmmss)
-        print("Today", date.ddMMyyyy, "at", date.HHmmss, "...")
+        print("--- Today", date.ddMMyyyy, "at", date.HHmmss, "...")
+
+        let date0 = Date(timeIntervalSince1970: -1006347601)
+        XCTAssertEqual("10.02.1938", date0.ddMMyyyy)
+        XCTAssertEqual("11:59:59", date0.HHmmss)
+        print("--- Once upon a time", date0.ddMMyyyy, "at", date0.HHmmss, "...")
 
     }
     
 }
 
 
-/*
-func testDateExt() {
-    let date = Date()
-    print("--- date=", date, "property ddMMyyy", date.ddMMyyyy)
-}
-
-func testDateExt2() {
-    let date = Date()
-    print("--- date=", date, "property ddmmyyy", date.ddmmyyyy)
-    print("--- date=", date, "property hhmmss", date.hhmmss)
-
-    print("--- timezone=", TimeZone.current)
-}
-*/

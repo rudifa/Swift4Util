@@ -1,5 +1,5 @@
 //
-//  DictUtil.swift
+//  DictUtil.swift v.0.1.0
 //  Swift4Util
 //
 //  Created by Rudolf Farkas on 30.06.18.

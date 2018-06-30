@@ -1,5 +1,5 @@
 //
-//  RegexUtil.swift version 0.4
+//  RegexUtil.swift  v.0.4.0
 //  Swift4Util
 //
 //  Created by Rudolf Farkas on 28.04.18.

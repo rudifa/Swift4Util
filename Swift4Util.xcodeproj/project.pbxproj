@@ -12,7 +12,7 @@
 		9D096EC920D7DEAF00D40F66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D096EC720D7DEAF00D40F66 /* Main.storyboard */; };
 		9D096ECB20D7DEB100D40F66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D096ECA20D7DEB100D40F66 /* Assets.xcassets */; };
 		9D096ECE20D7DEB100D40F66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D096ECC20D7DEB100D40F66 /* LaunchScreen.storyboard */; };
-		9D096ED920D7DEB100D40F66 /* Swift4UtilTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D096ED820D7DEB100D40F66 /* Swift4UtilTests.swift */; };
+		9D096ED920D7DEB100D40F66 /* DateUtilTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D096ED820D7DEB100D40F66 /* DateUtilTests.swift */; };
 		9D096EE520D7DF1A00D40F66 /* DateUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D096EE420D7DF1A00D40F66 /* DateUtil.swift */; };
 		9D096EE620D7E08900D40F66 /* DateUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D096EE420D7DF1A00D40F66 /* DateUtil.swift */; };
 		9D096EE920D7EEAC00D40F66 /* RegexUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D096EE820D7EEAC00D40F66 /* RegexUtil.swift */; };
@@ -20,6 +20,7 @@
 		9D096EED20D7EEFF00D40F66 /* RegexUtilTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D096EEB20D7EEFF00D40F66 /* RegexUtilTests.swift */; };
 		9D2481D920E79BA6008D2388 /* DictUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2481D820E79BA6008D2388 /* DictUtil.swift */; };
 		9D2481DB20E79BD6008D2388 /* DictUtilTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2481DA20E79BD6008D2388 /* DictUtilTests.swift */; };
+		9D2481DD20E7A6AD008D2388 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9D2481DC20E7A6AD008D2388 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,14 +42,14 @@
 		9D096ECD20D7DEB100D40F66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D096ECF20D7DEB100D40F66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D096ED420D7DEB100D40F66 /* Swift4UtilTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Swift4UtilTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D096ED820D7DEB100D40F66 /* Swift4UtilTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift4UtilTests.swift; sourceTree = "<group>"; };
+		9D096ED820D7DEB100D40F66 /* DateUtilTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateUtilTests.swift; sourceTree = "<group>"; };
 		9D096EDA20D7DEB100D40F66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D096EE420D7DF1A00D40F66 /* DateUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateUtil.swift; sourceTree = "<group>"; };
-		9D096EE720D7E38600D40F66 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9D096EE820D7EEAC00D40F66 /* RegexUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegexUtil.swift; sourceTree = "<group>"; };
 		9D096EEB20D7EEFF00D40F66 /* RegexUtilTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegexUtilTests.swift; sourceTree = "<group>"; };
 		9D2481D820E79BA6008D2388 /* DictUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictUtil.swift; sourceTree = "<group>"; };
 		9D2481DA20E79BD6008D2388 /* DictUtilTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictUtilTests.swift; sourceTree = "<group>"; };
+		9D2481DC20E7A6AD008D2388 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +73,7 @@
 		9D096EB720D7DEAF00D40F66 = {
 			isa = PBXGroup;
 			children = (
+				9D2481DC20E7A6AD008D2388 /* README.md */,
 				9D096EC220D7DEAF00D40F66 /* Swift4Util */,
 				9D096EE320D7DEEF00D40F66 /* Util */,
 				9D096ED720D7DEB100D40F66 /* Swift4UtilTests */,
@@ -97,7 +99,6 @@
 				9D096ECA20D7DEB100D40F66 /* Assets.xcassets */,
 				9D096ECC20D7DEB100D40F66 /* LaunchScreen.storyboard */,
 				9D096ECF20D7DEB100D40F66 /* Info.plist */,
-				9D096EE720D7E38600D40F66 /* README.md */,
 			);
 			path = Swift4Util;
 			sourceTree = "<group>";
@@ -106,7 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				9D096EEB20D7EEFF00D40F66 /* RegexUtilTests.swift */,
-				9D096ED820D7DEB100D40F66 /* Swift4UtilTests.swift */,
+				9D096ED820D7DEB100D40F66 /* DateUtilTests.swift */,
 				9D2481DA20E79BD6008D2388 /* DictUtilTests.swift */,
 				9D096EDA20D7DEB100D40F66 /* Info.plist */,
 			);
@@ -206,6 +207,7 @@
 			files = (
 				9D096ECE20D7DEB100D40F66 /* LaunchScreen.storyboard in Resources */,
 				9D096ECB20D7DEB100D40F66 /* Assets.xcassets in Resources */,
+				9D2481DD20E7A6AD008D2388 /* README.md in Resources */,
 				9D096EC920D7DEAF00D40F66 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -236,7 +238,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D096ED920D7DEB100D40F66 /* Swift4UtilTests.swift in Sources */,
+				9D096ED920D7DEB100D40F66 /* DateUtilTests.swift in Sources */,
 				9D096EE620D7E08900D40F66 /* DateUtil.swift in Sources */,
 				9D096EEA20D7EEAC00D40F66 /* RegexUtil.swift in Sources */,
 				9D2481DB20E79BD6008D2388 /* DictUtilTests.swift in Sources */,

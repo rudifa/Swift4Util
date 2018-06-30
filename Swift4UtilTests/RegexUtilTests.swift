@@ -1,6 +1,6 @@
 //
-//  try_regexTests.swift
-//  try_regexTests
+//  RegexUtilTests.swift
+//  Swift4UtilTests
 //
 //  Created by Rudolf Farkas on 28.04.18.
 //  Copyright © 2018 Rudolf Farkas. All rights reserved.

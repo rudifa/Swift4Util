@@ -1,6 +1,6 @@
 //
-//  DateUtil.swift
-//  Swift4Util v.0.1.0
+//  DateUtil.swift v.0.1.0
+//  Swift4Util
 //
 //  Created by Rudolf Farkas on 18.06.18.
 //  Copyright © 2018 Rudolf Farkas. All rights reserved.
