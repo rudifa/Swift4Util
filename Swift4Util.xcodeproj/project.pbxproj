@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D00425221048C2F00F69E2C /* StringUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D00425121048C2F00F69E2C /* StringUtil.swift */; };
+		9D00425421048C7600F69E2C /* StringUtilTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D00425321048C7600F69E2C /* StringUtilTests.swift */; };
 		9D096EC420D7DEAF00D40F66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D096EC320D7DEAF00D40F66 /* AppDelegate.swift */; };
 		9D096EC620D7DEAF00D40F66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D096EC520D7DEAF00D40F66 /* ViewController.swift */; };
 		9D096EC920D7DEAF00D40F66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D096EC720D7DEAF00D40F66 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9D00425121048C2F00F69E2C /* StringUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringUtil.swift; sourceTree = "<group>"; };
+		9D00425321048C7600F69E2C /* StringUtilTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringUtilTests.swift; sourceTree = "<group>"; };
 		9D096EC020D7DEAF00D40F66 /* Swift4Util.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift4Util.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D096EC320D7DEAF00D40F66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D096EC520D7DEAF00D40F66 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,9 +110,10 @@
 		9D096ED720D7DEB100D40F66 /* Swift4UtilTests */ = {
 			isa = PBXGroup;
 			children = (
-				9D096EEB20D7EEFF00D40F66 /* RegexUtilTests.swift */,
 				9D096ED820D7DEB100D40F66 /* DateUtilTests.swift */,
 				9D2481DA20E79BD6008D2388 /* DictUtilTests.swift */,
+				9D096EEB20D7EEFF00D40F66 /* RegexUtilTests.swift */,
+				9D00425321048C7600F69E2C /* StringUtilTests.swift */,
 				9D096EDA20D7DEB100D40F66 /* Info.plist */,
 			);
 			path = Swift4UtilTests;
@@ -117,9 +122,10 @@
 		9D096EE320D7DEEF00D40F66 /* Util */ = {
 			isa = PBXGroup;
 			children = (
-				9D096EE820D7EEAC00D40F66 /* RegexUtil.swift */,
 				9D096EE420D7DF1A00D40F66 /* DateUtil.swift */,
 				9D2481D820E79BA6008D2388 /* DictUtil.swift */,
+				9D096EE820D7EEAC00D40F66 /* RegexUtil.swift */,
+				9D00425121048C2F00F69E2C /* StringUtil.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -228,6 +234,7 @@
 			files = (
 				9D2481D920E79BA6008D2388 /* DictUtil.swift in Sources */,
 				9D096EE520D7DF1A00D40F66 /* DateUtil.swift in Sources */,
+				9D00425221048C2F00F69E2C /* StringUtil.swift in Sources */,
 				9D096EC620D7DEAF00D40F66 /* ViewController.swift in Sources */,
 				9D096EC420D7DEAF00D40F66 /* AppDelegate.swift in Sources */,
 				9D096EE920D7EEAC00D40F66 /* RegexUtil.swift in Sources */,
@@ -238,6 +245,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D00425421048C7600F69E2C /* StringUtilTests.swift in Sources */,
 				9D096ED920D7DEB100D40F66 /* DateUtilTests.swift in Sources */,
 				9D096EE620D7E08900D40F66 /* DateUtil.swift in Sources */,
 				9D096EEA20D7EEAC00D40F66 /* RegexUtil.swift in Sources */,
