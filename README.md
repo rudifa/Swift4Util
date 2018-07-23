@@ -87,3 +87,13 @@ let dictionary: Dictionary<State_Event, State> = [
     State_Event(.red, .cancel): .black,
 }
 ```
+
+### StringUtil
+
+Declares an `extension String` with split methods and an `extension Array` with a join method:
+
+```
+func split() -> [String]  // splits into array of single-character String
+func split(separator: Character) -> [String] // splits on separator
+func joined() -> String // joins an array of String
+```

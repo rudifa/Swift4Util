@@ -18,13 +18,16 @@ extension Date {
     }
 
     // computed property returns local date string
+
+
+    /// Returns the local date string
     var ddMMyyyy: String {
         get {
             return formatted(fmt: "dd.MM.yyyy")
         }
     }
 
-    // computed property returns local time string
+    /// Returns the local time string
     var HHmmss: String {
         get {
             return formatted(fmt: "HH:mm:ss")

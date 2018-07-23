@@ -14,7 +14,10 @@ extension String
     //https://learnappmaking.com/regular-expressions-swift-string/
     //https://stackoverflow.com/questions/27880650/swift-extract-regex-matches
     
-    // returns an array of substrings in self that matched the regex
+    /// Returns an array of substrings in self that matched the regex pattern
+    ///
+    /// - Parameter regex: pattern
+    /// - Returns: [String]
     func matches(for regex: String) -> [String] {
         do {
             let regex = try NSRegularExpression(pattern: regex)
@@ -28,12 +31,17 @@ extension String
         }
     }
     
-    // returns true if self is blank (empty or consists of whitespace characters only)
+    /// Returns true if self is blank (empty or consists of whitespace characters only)
+    ///
+    /// - Returns: <#return value description#>
     func isBlank() -> Bool {
         return self.matches(for: "^\\s*$") != []
     }
     
-    // returns true if self matches the pattern
+    /// Returns true if self matches the regex pattern
+    ///
+    /// - Parameter regex: pattern
+    /// - Returns: Bool
     func doesMatch(regex: String) -> Bool {
         return self.matches(for: regex) != []
     }
@@ -42,8 +50,10 @@ extension String
 
 extension String
 {
-    // Return UUID (if any) found in self (for diagnostics)
-    // ex: "https://stick-scan/product_images%2F08D41FB1-8B2E-4F6F-977A-BFA876AEF775.png"
+    /// Returns UUID (if any) found in self
+    ///
+    /// - Returns: String that matched the UUID pattern or empty string
+    /// - Example: "https://my-app/product_images%2F08D41FB1-8B2E-4F6F-977A-BFA876AEF775.png" -> "2F08D41FB1-8B2E-4F6F-977A-BFA876AEF775"
     func extractUUID() -> String {
         let matches = self.matches(for: "[0-9A-Fa-f]{8}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{12}")
         if matches.count > 0 {

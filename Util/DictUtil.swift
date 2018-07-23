@@ -23,6 +23,7 @@ import Foundation
 
  */
 
+/// Packs two hashable items into a hashable struct
 struct HashablePair<P1, P2>: Hashable where P1: Hashable, P2: Hashable {
     var firstProperty: P1
     var secondProperty: P2
