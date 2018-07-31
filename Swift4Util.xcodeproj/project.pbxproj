@@ -23,6 +23,9 @@
 		9D2481D920E79BA6008D2388 /* DictUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2481D820E79BA6008D2388 /* DictUtil.swift */; };
 		9D2481DB20E79BD6008D2388 /* DictUtilTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2481DA20E79BD6008D2388 /* DictUtilTests.swift */; };
 		9D2481DD20E7A6AD008D2388 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9D2481DC20E7A6AD008D2388 /* README.md */; };
+		9D93E452210B7728005A0333 /* CGUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D93E451210B7728005A0333 /* CGUtil.swift */; };
+		9DB21AF721108B0B00551BC7 /* CGUtilTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB21AF621108B0B00551BC7 /* CGUtilTests.swift */; };
+		9DB21AF821108BAF00551BC7 /* CGUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D93E451210B7728005A0333 /* CGUtil.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,8 @@
 		9D2481D820E79BA6008D2388 /* DictUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictUtil.swift; sourceTree = "<group>"; };
 		9D2481DA20E79BD6008D2388 /* DictUtilTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictUtilTests.swift; sourceTree = "<group>"; };
 		9D2481DC20E7A6AD008D2388 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9D93E451210B7728005A0333 /* CGUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGUtil.swift; sourceTree = "<group>"; };
+		9DB21AF621108B0B00551BC7 /* CGUtilTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGUtilTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +120,7 @@
 				9D096EEB20D7EEFF00D40F66 /* RegexUtilTests.swift */,
 				9D00425321048C7600F69E2C /* StringUtilTests.swift */,
 				9D096EDA20D7DEB100D40F66 /* Info.plist */,
+				9DB21AF621108B0B00551BC7 /* CGUtilTests.swift */,
 			);
 			path = Swift4UtilTests;
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 				9D2481D820E79BA6008D2388 /* DictUtil.swift */,
 				9D096EE820D7EEAC00D40F66 /* RegexUtil.swift */,
 				9D00425121048C2F00F69E2C /* StringUtil.swift */,
+				9D93E451210B7728005A0333 /* CGUtil.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -233,6 +240,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D2481D920E79BA6008D2388 /* DictUtil.swift in Sources */,
+				9D93E452210B7728005A0333 /* CGUtil.swift in Sources */,
 				9D096EE520D7DF1A00D40F66 /* DateUtil.swift in Sources */,
 				9D00425221048C2F00F69E2C /* StringUtil.swift in Sources */,
 				9D096EC620D7DEAF00D40F66 /* ViewController.swift in Sources */,
@@ -251,6 +259,8 @@
 				9D096EEA20D7EEAC00D40F66 /* RegexUtil.swift in Sources */,
 				9D2481DB20E79BD6008D2388 /* DictUtilTests.swift in Sources */,
 				9D096EED20D7EEFF00D40F66 /* RegexUtilTests.swift in Sources */,
+				9DB21AF721108B0B00551BC7 /* CGUtilTests.swift in Sources */,
+				9DB21AF821108BAF00551BC7 /* CGUtil.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
