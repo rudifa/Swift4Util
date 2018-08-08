@@ -32,7 +32,7 @@ class CGUtilTests: XCTestCase {
 
     }
 
-    func testCGArithmetic() {
+    func testCGSizeArithmetic() {
 
         let size = CGSize(width: 360.3456, height: 480.98765)
 
@@ -43,6 +43,20 @@ class CGUtilTests: XCTestCase {
 
         XCTAssertEqual((size / 7.543).fmt, "(47.77, 63.77)")
         XCTAssertEqual((size / CGFloat(7.543)).fmt, "(47.77, 63.77)")
+
+    }
+
+    func testCGPointArithmetic() {
+
+        let point = CGPoint(x: 360.3456, y: 480.98765)
+
+        XCTAssertEqual(point.fmt, "(360.35, 480.99)")
+
+        XCTAssertEqual((point * 7.543).fmt, "(2718.09, 3628.09)")
+        XCTAssertEqual((point * CGFloat(7.543)).fmt, "(2718.09, 3628.09)")
+
+        XCTAssertEqual((point / 7.543).fmt, "(47.77, 63.77)")
+        XCTAssertEqual((point / CGFloat(7.543)).fmt, "(47.77, 63.77)")
 
     }
 
