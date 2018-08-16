@@ -29,6 +29,7 @@
 		9D95E57F2124CE2F00E8E8E0 /* HexUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D95E57B2124CE0000E8E8E0 /* HexUtil.swift */; };
 		9DB21AF721108B0B00551BC7 /* CGUtilTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB21AF621108B0B00551BC7 /* CGUtilTests.swift */; };
 		9DB21AF821108BAF00551BC7 /* CGUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D93E451210B7728005A0333 /* CGUtil.swift */; };
+		9DFCA0652125BF9500D625D4 /* PlistUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFCA0642125BF9500D625D4 /* PlistUtil.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		9D95E57B2124CE0000E8E8E0 /* HexUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexUtil.swift; sourceTree = "<group>"; };
 		9D95E57D2124CE2300E8E8E0 /* HexUtilTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexUtilTests.swift; sourceTree = "<group>"; };
 		9DB21AF621108B0B00551BC7 /* CGUtilTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGUtilTests.swift; sourceTree = "<group>"; };
+		9DFCA0642125BF9500D625D4 /* PlistUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlistUtil.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,12 +109,12 @@
 		9D096EC220D7DEAF00D40F66 /* Swift4Util */ = {
 			isa = PBXGroup;
 			children = (
+				9D096ECF20D7DEB100D40F66 /* Info.plist */,
 				9D096EC320D7DEAF00D40F66 /* AppDelegate.swift */,
 				9D096EC520D7DEAF00D40F66 /* ViewController.swift */,
 				9D096EC720D7DEAF00D40F66 /* Main.storyboard */,
 				9D096ECA20D7DEB100D40F66 /* Assets.xcassets */,
 				9D096ECC20D7DEB100D40F66 /* LaunchScreen.storyboard */,
-				9D096ECF20D7DEB100D40F66 /* Info.plist */,
 			);
 			path = Swift4Util;
 			sourceTree = "<group>";
@@ -120,13 +122,13 @@
 		9D096ED720D7DEB100D40F66 /* Swift4UtilTests */ = {
 			isa = PBXGroup;
 			children = (
-				9D096ED820D7DEB100D40F66 /* DateUtilTests.swift */,
-				9D2481DA20E79BD6008D2388 /* DictUtilTests.swift */,
-				9D096EEB20D7EEFF00D40F66 /* RegexUtilTests.swift */,
-				9D00425321048C7600F69E2C /* StringUtilTests.swift */,
 				9D096EDA20D7DEB100D40F66 /* Info.plist */,
 				9DB21AF621108B0B00551BC7 /* CGUtilTests.swift */,
+				9D096ED820D7DEB100D40F66 /* DateUtilTests.swift */,
+				9D2481DA20E79BD6008D2388 /* DictUtilTests.swift */,
 				9D95E57D2124CE2300E8E8E0 /* HexUtilTests.swift */,
+				9D096EEB20D7EEFF00D40F66 /* RegexUtilTests.swift */,
+				9D00425321048C7600F69E2C /* StringUtilTests.swift */,
 			);
 			path = Swift4UtilTests;
 			sourceTree = "<group>";
@@ -134,12 +136,13 @@
 		9D096EE320D7DEEF00D40F66 /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				9D93E451210B7728005A0333 /* CGUtil.swift */,
 				9D096EE420D7DF1A00D40F66 /* DateUtil.swift */,
 				9D2481D820E79BA6008D2388 /* DictUtil.swift */,
+				9D95E57B2124CE0000E8E8E0 /* HexUtil.swift */,
+				9DFCA0642125BF9500D625D4 /* PlistUtil.swift */,
 				9D096EE820D7EEAC00D40F66 /* RegexUtil.swift */,
 				9D00425121048C2F00F69E2C /* StringUtil.swift */,
-				9D93E451210B7728005A0333 /* CGUtil.swift */,
-				9D95E57B2124CE0000E8E8E0 /* HexUtil.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -250,6 +253,7 @@
 				9D93E452210B7728005A0333 /* CGUtil.swift in Sources */,
 				9D096EE520D7DF1A00D40F66 /* DateUtil.swift in Sources */,
 				9D95E57C2124CE0000E8E8E0 /* HexUtil.swift in Sources */,
+				9DFCA0652125BF9500D625D4 /* PlistUtil.swift in Sources */,
 				9D00425221048C2F00F69E2C /* StringUtil.swift in Sources */,
 				9D096EC620D7DEAF00D40F66 /* ViewController.swift in Sources */,
 				9D096EC420D7DEAF00D40F66 /* AppDelegate.swift in Sources */,
