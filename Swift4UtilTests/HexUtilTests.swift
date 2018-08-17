@@ -48,4 +48,9 @@ class HexUtilTests: XCTestCase {
         // 1f1e7 1f1f7 1f1f3 1f1ff
 
     }
+    func testHexDump3() {
+
+        print("testHexDump3", "123".value)
+
+    }
 }
