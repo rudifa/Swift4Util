@@ -1,5 +1,5 @@
 //
-//  DateUtil.swift v.0.1.0
+//  DateUtil.swift v.0.1.1
 //  Swift4Util
 //
 //  Created by Rudolf Farkas on 18.06.18.
@@ -9,7 +9,6 @@
 import Foundation
 
 extension Date {
-
     private func formatted(fmt: String) -> String {
         let formatter = DateFormatter()
         formatter.timeZone = TimeZone.current // the default is UTC
@@ -19,19 +18,18 @@ extension Date {
 
     // computed property returns local date string
 
-
     /// Returns the local date string
     var ddMMyyyy: String {
-        get {
-            return formatted(fmt: "dd.MM.yyyy")
-        }
+        return formatted(fmt: "dd.MM.yyyy")
     }
 
     /// Returns the local time string
     var HHmmss: String {
-        get {
-            return formatted(fmt: "HH:mm:ss")
-        }
+        return formatted(fmt: "HH:mm:ss")
     }
-    
+
+    /// Returns the local time string with milliseconds
+    var HHmmssSSS: String {
+        return formatted(fmt: "HH:mm:ss.SSS")
+    }
 }
