@@ -1,5 +1,5 @@
 //
-//  DateUtil.swift v.0.1.1
+//  DateUtil.swift v.0.1.2
 //  Swift4Util
 //
 //  Created by Rudolf Farkas on 18.06.18.
@@ -31,5 +31,10 @@ extension Date {
     /// Returns the local time string with milliseconds
     var HHmmssSSS: String {
         return formatted(fmt: "HH:mm:ss.SSS")
+    }
+
+    /// Requires seconds into 21st century
+    init(seconds secondsInto21stCentury: TimeInterval) {
+        self.init(timeIntervalSinceReferenceDate: secondsInto21stCentury)
     }
 }

@@ -1,6 +1,6 @@
 //
 //  DateUtilTests.swift
-//  Swift4UtilTests v.0.1.1
+//  Swift4UtilTests v.0.1.2
 //
 //  Created by Rudolf Farkas on 18.06.18.
 //  Copyright © 2018 Rudolf Farkas. All rights reserved.
@@ -29,5 +29,11 @@ class DateUtilTests: XCTestCase {
         XCTAssertEqual("11:59:59", date0.HHmmss)
         XCTAssertEqual("11:59:59.000", date0.HHmmssSSS)
         print("--- Once upon a time", date0.ddMMyyyy, "at", date0.HHmmss, "...")
+    }
+
+    func testInit() {
+        let date = Date(seconds: 0)
+        XCTAssertEqual(date, Date(timeIntervalSinceReferenceDate: 0))
+        XCTAssertEqual(date.ddMMyyyy, "01.01.2001")
     }
 }
