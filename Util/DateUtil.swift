@@ -1,5 +1,5 @@
 //
-//  DateUtil.swift v.0.1.2
+//  DateUtil.swift v.0.1.3
 //  Swift4Util
 //
 //  Created by Rudolf Farkas on 18.06.18.
@@ -36,5 +36,13 @@ extension Date {
     /// Requires seconds into 21st century
     init(seconds secondsInto21stCentury: TimeInterval) {
         self.init(timeIntervalSinceReferenceDate: secondsInto21stCentury)
+    }
+
+    /// Returns a timestamp (timeIntervalSince1970)
+    var timeStamp: TimeInterval { return timeIntervalSince1970 }
+
+    /// Returns a timestamp string (timeIntervalSince1970)
+    var timeTag: String {
+        return String(format: "%10.5f", timeStamp).replacingOccurrences(of: ".", with:"_")
     }
 }
