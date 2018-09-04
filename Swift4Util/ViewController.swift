@@ -11,5 +11,18 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
+        printClassAndFunc(info: "more info...")
+    }
+
+    override func viewWillAppear(_ animated: Bool) {
+        printClassAndFunc()
+    }
+
+    override func viewWillDisappear(_ animated: Bool) {
+        printClassAndFunc()
+    }
+
+    deinit {
+        printClassAndFunc()
     }
 }

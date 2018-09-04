@@ -1,5 +1,5 @@
 //
-//  UIUtil.swift v.0.1.0
+//  UIUtil.swift v.0.1.1
 //  Swift4Util
 //
 //  Created by Rudolf Farkas on 04.09.18.
@@ -23,9 +23,8 @@ extension UIAlertController {
 }
 
 extension NSObject {
-    /// print current class and function names
-    func printClassAndFunc(_ funct: String = #function) {
-        print("----", String(describing: type(of: self)), funct)
+    /// print current class and function names, optionally info
+    func printClassAndFunc(fnc fnc_: String = #function, info inf_: String = "") {
+        print("----", String(describing: type(of: self)), fnc_, inf_)
     }
 }
-
