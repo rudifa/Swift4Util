@@ -26,6 +26,11 @@
 		9D2481DD20E7A6AD008D2388 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9D2481DC20E7A6AD008D2388 /* README.md */; };
 		9D5180BC2174F6A90019FF4D /* OptionalUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5180BB2174F6A90019FF4D /* OptionalUtil.swift */; };
 		9D5180BE2174F6CE0019FF4D /* OptionaUtilTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5180BD2174F6CE0019FF4D /* OptionaUtilTests.swift */; };
+		9D5180C2217529180019FF4D /* DictUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2481D820E79BA6008D2388 /* DictUtil.swift */; };
+		9D5180C32175291D0019FF4D /* PlistUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFCA0642125BF9500D625D4 /* PlistUtil.swift */; };
+		9D5180C4217529220019FF4D /* StringUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D00425121048C2F00F69E2C /* StringUtil.swift */; };
+		9D5180C5217529270019FF4D /* UIUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D136569213E7017009D8833 /* UIUtil.swift */; };
+		9D5180C62175292A0019FF4D /* OptionalUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5180BB2174F6A90019FF4D /* OptionalUtil.swift */; };
 		9D93E452210B7728005A0333 /* CGUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D93E451210B7728005A0333 /* CGUtil.swift */; };
 		9D95E57C2124CE0000E8E8E0 /* HexUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D95E57B2124CE0000E8E8E0 /* HexUtil.swift */; };
 		9D95E57E2124CE2300E8E8E0 /* HexUtilTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D95E57D2124CE2300E8E8E0 /* HexUtilTests.swift */; };
@@ -209,10 +214,11 @@
 				TargetAttributes = {
 					9D096EBF20D7DEAF00D40F66 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 					};
 					9D096ED320D7DEB100D40F66 = {
 						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = 9D096EBF20D7DEAF00D40F66;
+						LastSwiftMigration = 1000;
 					};
 				};
 			};
@@ -281,6 +287,10 @@
 			files = (
 				9D5180BE2174F6CE0019FF4D /* OptionaUtilTests.swift in Sources */,
 				9D00425421048C7600F69E2C /* StringUtilTests.swift in Sources */,
+				9D5180C4217529220019FF4D /* StringUtil.swift in Sources */,
+				9D5180C62175292A0019FF4D /* OptionalUtil.swift in Sources */,
+				9D5180C5217529270019FF4D /* UIUtil.swift in Sources */,
+				9D5180C2217529180019FF4D /* DictUtil.swift in Sources */,
 				9DAC1EB72146A76F00DD72F2 /* XCTestUtil.swift in Sources */,
 				9D95E57E2124CE2300E8E8E0 /* HexUtilTests.swift in Sources */,
 				9D096ED920D7DEB100D40F66 /* DateUtilTests.swift in Sources */,
@@ -288,6 +298,7 @@
 				9D096EE620D7E08900D40F66 /* DateUtil.swift in Sources */,
 				9D096EEA20D7EEAC00D40F66 /* RegexUtil.swift in Sources */,
 				9D2481DB20E79BD6008D2388 /* DictUtilTests.swift in Sources */,
+				9D5180C32175291D0019FF4D /* PlistUtil.swift in Sources */,
 				9D096EED20D7EEFF00D40F66 /* RegexUtilTests.swift in Sources */,
 				9DB21AF721108B0B00551BC7 /* CGUtilTests.swift in Sources */,
 				9DB21AF821108BAF00551BC7 /* CGUtil.swift in Sources */,
@@ -454,7 +465,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -474,7 +485,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = rudifa.Swift4Util;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -483,7 +494,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LHA84NAPNA;
 				INFOPLIST_FILE = Swift4UtilTests/Info.plist;
@@ -494,9 +504,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = rudifa.Swift4UtilTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift4Util.app/Swift4Util";
 			};
 			name = Debug;
 		};
@@ -504,7 +513,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LHA84NAPNA;
 				INFOPLIST_FILE = Swift4UtilTests/Info.plist;
@@ -515,9 +523,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = rudifa.Swift4UtilTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift4Util.app/Swift4Util";
 			};
 			name = Release;
 		};
