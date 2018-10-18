@@ -8,8 +8,7 @@
 
 import Foundation
 
-extension Optional where Wrapped == Int{
-
+extension Optional where Wrapped == Int {
     /// Increment an optional Int
     ///
     /// - Parameter val: to increment by
