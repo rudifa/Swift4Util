@@ -29,6 +29,13 @@ class RegexUtilTests: XCTestCase {
         print("---", string, matched, "blank: \(string.isBlank())")
         XCTAssertFalse(string.isBlank())
 
+        string = "abra cadabra"
+        matched = string.matches(for: "abra")
+        //print(matched)
+        XCTAssertEqual(matched, ["abra", "abra"])
+        print("---", string, matched, "blank: \(string.isBlank())")
+        XCTAssertFalse(string.isBlank())
+
         let whitespace = "^\\s*$"
         string = ""
         matched = string.matches(for: whitespace)
