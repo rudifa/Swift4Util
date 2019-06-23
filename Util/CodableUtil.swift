@@ -1,5 +1,5 @@
 //
-//  CodableUtil.swift v.0.1.0
+//  CodableUtil.swift v.0.1.1
 //  Swift4Util
 //
 //  Created by Rudolf Farkas on 23.06.19.
