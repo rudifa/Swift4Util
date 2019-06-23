@@ -1,5 +1,5 @@
 //
-//  CodableUtilTests.swift v.0.1.1
+//  CodableUtilTests.swift v.0.1.2
 //  Swift4UtilTests
 //
 //  Created by Rudolf Farkas on 23.06.19.
