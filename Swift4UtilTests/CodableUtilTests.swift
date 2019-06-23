@@ -14,7 +14,6 @@ struct Language: Codable, Equatable {
 }
 
 class CodableUtilTests: XCTestCase {
-
     override func setUp() {}
 
     override func tearDown() {}
@@ -25,11 +24,12 @@ class CodableUtilTests: XCTestCase {
         // encode with one line of code
         let data = try? language.encode()
 
-        let language2: Language? = try? Language.decode(from: data!)
-
+        let language2 = try? Language.decode(from: data!)
         XCTAssertEqual(language, language2)
-    }
 
+        let language3 = try? Language.decode(from: Data())
+        XCTAssertNil(language3)
+    }
 }
 
 //    https://gist.github.com/eMdOS/88a465e8898a0600d0a343e14
