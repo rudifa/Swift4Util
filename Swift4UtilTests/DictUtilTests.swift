@@ -7,7 +7,6 @@
 //
 
 import XCTest
-@testable import Swift4Util
 
 class DictUtilTests: XCTestCase {
     

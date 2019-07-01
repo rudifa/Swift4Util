@@ -45,6 +45,7 @@
 		9DD4983322BE78F200C20D2A /* TimeIntervalUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD4983222BE78F200C20D2A /* TimeIntervalUtil.swift */; };
 		9DD4983522BE79C900C20D2A /* TimeIntervalUtilTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD4983422BE79C900C20D2A /* TimeIntervalUtilTests.swift */; };
 		9DD4983622BE7A4900C20D2A /* TimeIntervalUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD4983222BE78F200C20D2A /* TimeIntervalUtil.swift */; };
+		9DF699C622CA30AE00B76BB9 /* UIUtilTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF699C522CA30AE00B76BB9 /* UIUtilTest.swift */; };
 		9DFCA0652125BF9500D625D4 /* PlistUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFCA0642125BF9500D625D4 /* PlistUtil.swift */; };
 /* End PBXBuildFile section */
 
@@ -90,6 +91,7 @@
 		9DB21AF621108B0B00551BC7 /* CGUtilTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGUtilTests.swift; sourceTree = "<group>"; };
 		9DD4983222BE78F200C20D2A /* TimeIntervalUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeIntervalUtil.swift; sourceTree = "<group>"; };
 		9DD4983422BE79C900C20D2A /* TimeIntervalUtilTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeIntervalUtilTests.swift; sourceTree = "<group>"; };
+		9DF699C522CA30AE00B76BB9 /* UIUtilTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIUtilTest.swift; sourceTree = "<group>"; };
 		9DFCA0642125BF9500D625D4 /* PlistUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlistUtil.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -159,6 +161,7 @@
 				9D00425321048C7600F69E2C /* StringUtilTests.swift */,
 				9DD4983422BE79C900C20D2A /* TimeIntervalUtilTests.swift */,
 				9DAC1EB62146A76F00DD72F2 /* XCTestUtil.swift */,
+				9DF699C522CA30AE00B76BB9 /* UIUtilTest.swift */,
 			);
 			path = Swift4UtilTests;
 			sourceTree = "<group>";
@@ -323,6 +326,7 @@
 				9D096EEA20D7EEAC00D40F66 /* RegexUtil.swift in Sources */,
 				9D2481DB20E79BD6008D2388 /* DictUtilTests.swift in Sources */,
 				9D5180C32175291D0019FF4D /* PlistUtil.swift in Sources */,
+				9DF699C622CA30AE00B76BB9 /* UIUtilTest.swift in Sources */,
 				9D096EED20D7EEFF00D40F66 /* RegexUtilTests.swift in Sources */,
 				9DB21AF721108B0B00551BC7 /* CGUtilTests.swift in Sources */,
 				9DB21AF821108BAF00551BC7 /* CGUtil.swift in Sources */,

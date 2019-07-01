@@ -7,27 +7,25 @@
 //
 
 import XCTest
-@testable import Swift4Util
-
 
 func localizedStrings(inStringFile: String) -> [String] {
     var localizedStrings = [String]()
-    //var localizedStrings2 = [String]()
-    let namePattern = "([\\w-]+)"  // capturing parentheses
+    // var localizedStrings2 = [String]()
+    let namePattern = "([\\w-]+)" // capturing parentheses
     let patterns = [
         "#imageLiteral\\(resourceName: \"\(namePattern)\"\\)", // Image Literal
         "UIImage\\(named:\\s*\"\(namePattern)\"\\)", // Default UIImage call (Swift)
         "UIImage imageNamed:\\s*\\@\"\(namePattern)\"", // Default UIImage call
         "Setting\\(name:.*imageName:\\s*\"\(namePattern)\"\\)", // Setting init like: Setting(name: "Terms & Conditions", imageName: "legal_a")
         "\\<image name=\"\(namePattern)\".*", // Storyboard resources
-        "R.image.\(namePattern)\\(\\)" //R.swift support
+        "R.image.\(namePattern)\\(\\)", // R.swift support
     ]
     for p in patterns {
         let regex = try? NSRegularExpression(pattern: p, options: [])
-        let range = NSRange(location:0, length:(inStringFile as NSString).length)
-        regex?.enumerateMatches(in: inStringFile,options: [], range: range) { result, _, _ in
+        let range = NSRange(location: 0, length: (inStringFile as NSString).length)
+        regex?.enumerateMatches(in: inStringFile, options: [], range: range) { result, _, _ in
             if let r = result {
-                let value = (inStringFile as NSString).substring(with:r.range(at: 1))
+                let value = (inStringFile as NSString).substring(with: r.range(at: 1))
                 localizedStrings.append(value)
             }
         }
@@ -39,10 +37,7 @@ func localizedStrings(inStringFile: String) -> [String] {
     return localizedStrings
 }
 
-
-
 class regex: XCTestCase {
-
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
 
@@ -55,7 +50,6 @@ class regex: XCTestCase {
     }
 
     func testExample() {
-
         let string = """
         UIImage(named:"monalisa"),
         UIImage imageNamed:@"joconda"),
@@ -66,7 +60,5 @@ class regex: XCTestCase {
 
         let out = localizedStrings(inStringFile: string)
         print(out)
-
     }
-
 }

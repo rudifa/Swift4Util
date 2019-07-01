@@ -7,18 +7,16 @@
 //
 
 import XCTest
-@testable import Swift4Util
 
 class StringUtilTests: XCTestCase {
-    
     override func setUp() {
         super.setUp()
     }
-    
+
     override func tearDown() {
         super.tearDown()
     }
-    
+
     func testStringSplitAndJoined() {
         let str = "abcd"
 
@@ -44,9 +42,5 @@ class StringUtilTests: XCTestCase {
         // use the builtin String.split() method with defaults
         let arrstr3 = str3.split(separator: " ")
         XCTAssertEqual(arrstr3, ["1", "+", "1", "cos", "="])
-
-
     }
-
-    
 }

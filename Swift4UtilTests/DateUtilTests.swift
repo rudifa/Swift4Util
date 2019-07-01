@@ -6,7 +6,6 @@
 //  Copyright © 2018 Rudolf Farkas. All rights reserved.
 //
 
-@testable import Swift4Util
 import XCTest
 
 class DateUtilTests: XCTestCase {
@@ -39,7 +38,7 @@ class DateUtilTests: XCTestCase {
 
     func testTimeStampAndTag() {
         let date = Date(seconds: 0)
-        XCTAssertEqual(date.timeStamp, 978307200.0)
+        XCTAssertEqual(date.timeStamp, 978_307_200.0)
         XCTAssertEqual(date.timeTag, "978307200_00000")
     }
 }
