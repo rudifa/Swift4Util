@@ -1,5 +1,5 @@
 //
-//  StringUtilTests.swift
+//  StringUtilTests.swift v.0.2.1
 //  Swift4UtilTests
 //
 //  Created by Rudolf Farkas on 22.07.18.
@@ -42,5 +42,14 @@ class StringUtilTests: XCTestCase {
         // use the builtin String.split() method with defaults
         let arrstr3 = str3.split(separator: " ")
         XCTAssertEqual(arrstr3, ["1", "+", "1", "cos", "="])
+    }
+
+    func test_camelCaseSplit() {
+        XCTAssertEqual("HelloThere".camelCaseSplit, "Hello There")
+        XCTAssertEqual("".camelCaseSplit, "")
+        XCTAssertEqual("A".camelCaseSplit, "A")
+        XCTAssertEqual("ABRACADABRA".camelCaseSplit, "A B R A C A D A B R A")
+        XCTAssertEqual("IoT".camelCaseSplit, "Io T")
+        XCTAssertEqual("camelCaseSplit".camelCaseSplit, "Camel Case Split")
     }
 }
