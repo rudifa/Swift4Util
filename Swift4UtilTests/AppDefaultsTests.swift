@@ -19,7 +19,6 @@ class AppDefaultsTests: XCTestCase {
     override func setUp() {}
     override func tearDown() {}
 
-
     func test_AppDefaults() {
         // try to get from AppDefaults
 
@@ -49,7 +48,7 @@ class AppDefaultsTests: XCTestCase {
 
         // remove from AppDefaults
 
-        UserDefaults.standard.removeObject(forKey: prefLangKey)
+        AppDefaults<ProgLang>.remove(forKey: prefLangKey)
 
         do {
             let val = AppDefaults<ProgLang>.setting(for: prefLangKey)
@@ -62,4 +61,3 @@ class AppDefaultsTests: XCTestCase {
         }
     }
 }
-

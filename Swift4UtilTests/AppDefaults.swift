@@ -9,6 +9,20 @@
 import Foundation
 
 /// Utility for saving to and restoring from UserDefaults.standard arbitrary structs
+///
+/// Usage examples (given struct ProgLang: Codable):
+/// 1. try to get setting value from AppDefaults
+///     if let val = AppDefaults<ProgLang>.setting(for: prefLangKey) {
+///         // ok, can use the non-nil value
+///     }
+/// 2. try to save a setting to AppDefaults
+///     if let saved = AppDefaults.set(prefLang, forKey: prefLangKey) {
+///         // ok, saved successfully
+///     }
+/// 3. remove setting from AppDefaults
+///
+///         AppDefaults<ProgLang>.remove(forKey: prefLangKey)
+///
 struct AppDefaults<Struct: Codable> {
     /// Look up data for the setting key
     ///
@@ -35,7 +49,7 @@ struct AppDefaults<Struct: Codable> {
     ///
     /// - Parameters:
     ///   - value: to save in UserDefaults
-    ///   - key:  setting key
+    ///   - key: setting key
     /// - Returns: true if successful
     static func set(_ value: Struct, forKey key: String) -> Bool {
         if let encoded = try? value.encode() {
@@ -44,5 +58,11 @@ struct AppDefaults<Struct: Codable> {
         }
         return false
     }
-}
 
+    /// Remove the setting for key from UserDefaults.standard
+    ///
+    /// - Parameter key: setting key
+    static func remove(forKey key: String) {
+        UserDefaults.standard.removeObject(forKey: key)
+    }
+}
