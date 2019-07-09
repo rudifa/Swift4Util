@@ -45,9 +45,9 @@
 		9DD4983322BE78F200C20D2A /* TimeIntervalUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD4983222BE78F200C20D2A /* TimeIntervalUtil.swift */; };
 		9DD4983522BE79C900C20D2A /* TimeIntervalUtilTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD4983422BE79C900C20D2A /* TimeIntervalUtilTests.swift */; };
 		9DD4983622BE7A4900C20D2A /* TimeIntervalUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD4983222BE78F200C20D2A /* TimeIntervalUtil.swift */; };
-		9DF0384922D359BF00E79D3F /* AppDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF0384822D359BF00E79D3F /* AppDefaults.swift */; };
 		9DF0384B22D359F300E79D3F /* AppDefaultsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF0384A22D359F300E79D3F /* AppDefaultsTests.swift */; };
-		9DF0384C22D38BC900E79D3F /* AppDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF0384822D359BF00E79D3F /* AppDefaults.swift */; };
+		9DF0385222D534FC00E79D3F /* AppDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF0385122D534FC00E79D3F /* AppDefaults.swift */; };
+		9DF0385322D5351400E79D3F /* AppDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF0385122D534FC00E79D3F /* AppDefaults.swift */; };
 		9DF699C622CA30AE00B76BB9 /* UIUtilTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF699C522CA30AE00B76BB9 /* UIUtilTest.swift */; };
 		9DFCA0652125BF9500D625D4 /* PlistUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFCA0642125BF9500D625D4 /* PlistUtil.swift */; };
 /* End PBXBuildFile section */
@@ -94,8 +94,8 @@
 		9DB21AF621108B0B00551BC7 /* CGUtilTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGUtilTests.swift; sourceTree = "<group>"; };
 		9DD4983222BE78F200C20D2A /* TimeIntervalUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeIntervalUtil.swift; sourceTree = "<group>"; };
 		9DD4983422BE79C900C20D2A /* TimeIntervalUtilTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeIntervalUtilTests.swift; sourceTree = "<group>"; };
-		9DF0384822D359BF00E79D3F /* AppDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDefaults.swift; path = Swift4UtilTests/AppDefaults.swift; sourceTree = SOURCE_ROOT; };
 		9DF0384A22D359F300E79D3F /* AppDefaultsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDefaultsTests.swift; sourceTree = "<group>"; };
+		9DF0385122D534FC00E79D3F /* AppDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDefaults.swift; sourceTree = "<group>"; };
 		9DF699C522CA30AE00B76BB9 /* UIUtilTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIUtilTest.swift; sourceTree = "<group>"; };
 		9DFCA0642125BF9500D625D4 /* PlistUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlistUtil.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -175,7 +175,7 @@
 		9D096EE320D7DEEF00D40F66 /* Util */ = {
 			isa = PBXGroup;
 			children = (
-				9DF0384822D359BF00E79D3F /* AppDefaults.swift */,
+				9DF0385122D534FC00E79D3F /* AppDefaults.swift */,
 				9D93E451210B7728005A0333 /* CGUtil.swift */,
 				9D706E8D22BFAABB00AE6E18 /* CodableUtil.swift */,
 				9D096EE420D7DF1A00D40F66 /* DateUtil.swift */,
@@ -296,12 +296,12 @@
 			files = (
 				9D2481D920E79BA6008D2388 /* DictUtil.swift in Sources */,
 				9D93E452210B7728005A0333 /* CGUtil.swift in Sources */,
-				9DF0384922D359BF00E79D3F /* AppDefaults.swift in Sources */,
 				9D096EE520D7DF1A00D40F66 /* DateUtil.swift in Sources */,
 				9D13656A213E7017009D8833 /* UIUtil.swift in Sources */,
 				9D95E57C2124CE0000E8E8E0 /* HexUtil.swift in Sources */,
 				9DFCA0652125BF9500D625D4 /* PlistUtil.swift in Sources */,
 				9D5180BC2174F6A90019FF4D /* OptionalUtil.swift in Sources */,
+				9DF0385222D534FC00E79D3F /* AppDefaults.swift in Sources */,
 				9DD4983322BE78F200C20D2A /* TimeIntervalUtil.swift in Sources */,
 				9D00425221048C2F00F69E2C /* StringUtil.swift in Sources */,
 				9D096EC620D7DEAF00D40F66 /* ViewController.swift in Sources */,
@@ -336,7 +336,7 @@
 				9D5180C32175291D0019FF4D /* PlistUtil.swift in Sources */,
 				9DF699C622CA30AE00B76BB9 /* UIUtilTest.swift in Sources */,
 				9D096EED20D7EEFF00D40F66 /* RegexUtilTests.swift in Sources */,
-				9DF0384C22D38BC900E79D3F /* AppDefaults.swift in Sources */,
+				9DF0385322D5351400E79D3F /* AppDefaults.swift in Sources */,
 				9DB21AF721108B0B00551BC7 /* CGUtilTests.swift in Sources */,
 				9DF0384B22D359F300E79D3F /* AppDefaultsTests.swift in Sources */,
 				9DB21AF821108BAF00551BC7 /* CGUtil.swift in Sources */,
