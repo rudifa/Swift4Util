@@ -1,5 +1,5 @@
 //
-//  UIUtil.swift v.0.1.2
+//  UIUtil.swift v.0.1.3
 //  Swift4Util
 //
 //  Created by Rudolf Farkas on 04.09.18.
@@ -26,7 +26,7 @@ extension NSObject {
     /// print current class and function names, optionally info
     func printClassAndFunc(fnc fnc_: String = #function, info inf_: String = "") {
         #if DEBUG
-            print("----", String(describing: type(of: self)), fnc_, inf_)
+            print("---- \(String(describing: type(of: self))).\(fnc_)", inf_)
         #endif
     }
 }
