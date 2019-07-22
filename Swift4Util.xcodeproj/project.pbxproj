@@ -24,6 +24,9 @@
 		9D2481D920E79BA6008D2388 /* DictUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2481D820E79BA6008D2388 /* DictUtil.swift */; };
 		9D2481DB20E79BD6008D2388 /* DictUtilTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2481DA20E79BD6008D2388 /* DictUtilTests.swift */; };
 		9D2481DD20E7A6AD008D2388 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9D2481DC20E7A6AD008D2388 /* README.md */; };
+		9D34888122E622A100934260 /* UserDefaultsUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D34888022E622A100934260 /* UserDefaultsUtil.swift */; };
+		9D34888222E622A100934260 /* UserDefaultsUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D34888022E622A100934260 /* UserDefaultsUtil.swift */; };
+		9D34888422E622BD00934260 /* UserDefaultsUtilTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D34888322E622BD00934260 /* UserDefaultsUtilTests.swift */; };
 		9D5180BC2174F6A90019FF4D /* OptionalUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5180BB2174F6A90019FF4D /* OptionalUtil.swift */; };
 		9D5180BE2174F6CE0019FF4D /* OptionaUtilTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5180BD2174F6CE0019FF4D /* OptionaUtilTests.swift */; };
 		9D5180C2217529180019FF4D /* DictUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2481D820E79BA6008D2388 /* DictUtil.swift */; };
@@ -82,6 +85,8 @@
 		9D2481D820E79BA6008D2388 /* DictUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictUtil.swift; sourceTree = "<group>"; };
 		9D2481DA20E79BD6008D2388 /* DictUtilTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictUtilTests.swift; sourceTree = "<group>"; };
 		9D2481DC20E7A6AD008D2388 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9D34888022E622A100934260 /* UserDefaultsUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsUtil.swift; sourceTree = "<group>"; };
+		9D34888322E622BD00934260 /* UserDefaultsUtilTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsUtilTests.swift; sourceTree = "<group>"; };
 		9D5180BB2174F6A90019FF4D /* OptionalUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalUtil.swift; sourceTree = "<group>"; };
 		9D5180BD2174F6CE0019FF4D /* OptionaUtilTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionaUtilTests.swift; sourceTree = "<group>"; };
 		9D706E8D22BFAABB00AE6E18 /* CodableUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableUtil.swift; sourceTree = "<group>"; };
@@ -168,6 +173,7 @@
 				9DD4983422BE79C900C20D2A /* TimeIntervalUtilTests.swift */,
 				9DAC1EB62146A76F00DD72F2 /* XCTestUtil.swift */,
 				9DF699C522CA30AE00B76BB9 /* UIUtilTest.swift */,
+				9D34888322E622BD00934260 /* UserDefaultsUtilTests.swift */,
 			);
 			path = Swift4UtilTests;
 			sourceTree = "<group>";
@@ -187,6 +193,7 @@
 				9D00425121048C2F00F69E2C /* StringUtil.swift */,
 				9DD4983222BE78F200C20D2A /* TimeIntervalUtil.swift */,
 				9D136569213E7017009D8833 /* UIUtil.swift */,
+				9D34888022E622A100934260 /* UserDefaultsUtil.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -295,6 +302,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D2481D920E79BA6008D2388 /* DictUtil.swift in Sources */,
+				9D34888122E622A100934260 /* UserDefaultsUtil.swift in Sources */,
 				9D93E452210B7728005A0333 /* CGUtil.swift in Sources */,
 				9D096EE520D7DF1A00D40F66 /* DateUtil.swift in Sources */,
 				9D13656A213E7017009D8833 /* UIUtil.swift in Sources */,
@@ -328,6 +336,7 @@
 				9D096ED920D7DEB100D40F66 /* DateUtilTests.swift in Sources */,
 				9D95E57F2124CE2F00E8E8E0 /* HexUtil.swift in Sources */,
 				9DD4983622BE7A4900C20D2A /* TimeIntervalUtil.swift in Sources */,
+				9D34888422E622BD00934260 /* UserDefaultsUtilTests.swift in Sources */,
 				9D096EE620D7E08900D40F66 /* DateUtil.swift in Sources */,
 				9D706E9122BFAEDA00AE6E18 /* CodableUtil.swift in Sources */,
 				9DD4983522BE79C900C20D2A /* TimeIntervalUtilTests.swift in Sources */,
@@ -336,6 +345,7 @@
 				9D5180C32175291D0019FF4D /* PlistUtil.swift in Sources */,
 				9DF699C622CA30AE00B76BB9 /* UIUtilTest.swift in Sources */,
 				9D096EED20D7EEFF00D40F66 /* RegexUtilTests.swift in Sources */,
+				9D34888222E622A100934260 /* UserDefaultsUtil.swift in Sources */,
 				9DF0385322D5351400E79D3F /* AppDefaults.swift in Sources */,
 				9DB21AF721108B0B00551BC7 /* CGUtilTests.swift in Sources */,
 				9DF0384B22D359F300E79D3F /* AppDefaultsTests.swift in Sources */,
