@@ -38,8 +38,10 @@ class UserSettingsUtilTests: XCTestCase {
         defaults.remove(forKey: languageKey)
 
         // restore from defaults should fail
-        if let language: Language = defaults.get(forKey: languageKey) {
-            XCTAssertNil(language)
+        if let _: Language = defaults.get(forKey: languageKey) {
+            XCTAssert(false)
+        } else {
+            XCTAssert(true)
         }
     }
 }

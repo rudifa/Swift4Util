@@ -10,10 +10,5 @@ import XCTest
 
 class UIUtilTest: XCTestCase {
     override func setUp() {}
-
     override func tearDown() {}
-
-    func test_printClassAndFunc() {
-        printClassAndFunc(info: "more info")
-    }
 }

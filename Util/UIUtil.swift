@@ -21,12 +21,3 @@ extension UIAlertController {
         window.rootViewController?.present(self, animated: false, completion: nil)
     }
 }
-
-extension NSObject {
-    /// print current class and function names, optionally info
-    func printClassAndFunc(fnc fnc_: String = #function, info inf_: String = "") {
-        #if DEBUG
-            print("---- \(String(describing: type(of: self))).\(fnc_)", inf_)
-        #endif
-    }
-}
